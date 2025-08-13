@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dream Job Card</string>
+    <string name="company_name">Company Name</string>
+    <string name="employee_name">Your Name</string>
+    <string name="job_title">Job Title</string>
+    <string name="phone_number">+91-63******1</string>
+    <string name="address">Address</string>
+    <string name="email">example@email.com</string>
+    <string name="website">website</string>
+    <string name="company_logo_desc">Company Logo</string>
+</resources>
