@@ -13,9 +13,9 @@
         android:id="@+id/visitingCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/card_margin"
-        app:cardCornerRadius="@dimen/card_corner_radius"
-        app:cardElevation="@dimen/card_elevation"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="#F1EAFF"
-            android:padding="@dimen/card_padding">
+            android:padding="30dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -35,8 +35,8 @@
 
                 <ImageView
                     android:id="@+id/companyLogo"
-                    android:layout_width="@dimen/logo_size"
-                    android:layout_height="@dimen/logo_size"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:contentDescription="@string/company_logo_desc"
                     android:src="@drawable/outline_ac_unit_24"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +46,13 @@
                     android:id="@+id/companyName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/logo_margin_end"
+                    android:layout_marginEnd="16dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:text="@string/company_name"
                     android:textColor="@color/company_name_color"
-                    android:textSize="@dimen/company_name_text_size"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@id/companyLogo"
                     app:layout_constraintEnd_toStartOf="@+id/companyLogo"
@@ -65,30 +65,30 @@
                 android:id="@+id/separator"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:layout_marginVertical="@dimen/separator_margin_vertical"
+                android:layout_marginVertical="16dp"
                 android:background="@color/separator_color" />
 
             <TextView
                 android:id="@+id/employeeName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/name_margin_top"
+                android:layout_marginTop="16dp"
                 android:text="@string/employee_name"
                 android:textAlignment="center"
                 android:textColor="@color/employee_name_color"
-                android:textSize="@dimen/employee_name_text_size"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/jobTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/job_title_margin_top"
+                android:layout_marginTop="4dp"
                 android:text="@string/job_title"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textColor="@color/job_title_color"
-                android:textSize="@dimen/job_title_text_size" />
+                android:textSize="16sp" />
 
 
             <LinearLayout
@@ -101,28 +101,28 @@
                     android:id="@+id/phoneNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/contact_info_margin_bottom"
+                    android:layout_marginBottom="8dp"
                     android:text="@string/phone_number"
                     android:textColor="@color/contact_info_color"
-                    android:textSize="@dimen/contact_info_text_size" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/contact_info_margin_bottom"
+                    android:layout_marginBottom="8dp"
                     android:text="@string/address"
                     android:textColor="@color/contact_info_color"
-                    android:textSize="@dimen/contact_info_text_size" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/contact_info_margin_bottom"
+                    android:layout_marginBottom="8dp"
                     android:text="@string/email"
                     android:textColor="@color/contact_info_color"
-                    android:textSize="@dimen/contact_info_text_size" />
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
